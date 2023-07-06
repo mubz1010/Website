@@ -1,0 +1,445 @@
+/* ..........................................Top of the website.......................................................... */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  header {
+    background-color: #141414;
+    color: #141414;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #ffffff;
+    transition-property: color;
+    transition: 0.3s;
+    transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+font-size: 20px;
+color: rgb(69, 69, 69);}
+
+
+
+
+
+    /* ......................................................................................................................... */
+
+
+
+
+
+
+  /* ...........................................Main body of the website................................................. */
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1px;
+    background-image: url("background.jpg");
+    opacity: 1;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
+
+/* .......................................................Home Page.................................................. */
+.about {
+  color: #ffffff;
+     text-align: center;
+     padding: 3px;
+     width: 50%;
+     margin-bottom: 10px;
+ }
+/* Bugatti Central header - At Bugatti Central*/
+ .about h3 {
+   font-size: 3em;
+   margin-bottom: 50px;
+ }
+
+ 
+/* Bugatti banner description */
+ .about p {
+  padding: 5px;
+   color: #ffffff;
+   transition: all 3s ease-in-out;
+   background-color:#141414;
+   font-size: 1.5em;}
+
+
+/* Bugatti description */
+.about2 {
+
+color: #ffffff;
+font-size: large;
+text-align: center;
+margin-top: 50px;
+margin-bottom: 70px;
+margin-left: 70px;
+margin-right: 70px;
+}
+
+
+/* ................Button on homepage............. */
+
+.about3 {
+  
+  text-decoration: none;
+  font-size: xx-large;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgb(0, 0, 0);
+  padding: 15px 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  font-weight: normal;
+ 
+  transition: all 0.3s ease-in-out;}
+
+.about3 a {
+color: rgb(255, 255, 255);
+margin-top:50px;
+text-decoration: none;
+transition: all 0.3s ease-in-out;}
+
+.about3 a:hover *
+{color: #000000;
+  transition: all 0.3s ease-in-out;}
+
+
+  .about3:hover {
+
+    background-color: #ffffff;
+    transition-property: font-size;
+    transition: all 0.3s ease-in-out;}
+
+/* .................................Customer testimonials............................................... */
+.custt
+{color: #fff;
+text-align: center;
+margin-bottom: 10px;
+border-radius: 3px;
+padding: 5px;}
+
+/* .........................Text within the box...................... */
+
+figure.snip1197 {
+  position: relative;
+  margin: 10px;
+  margin-bottom: 50px;
+  min-width: 300px;
+  max-width: 450px;
+  font-size: 25px;
+  margin-top: 10px;
+  width: 100%;
+  color: #ffffff;
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(254, 98, 1, 0.15);}
+
+/* Text animation */
+figure.snip1197:hover
+{transition: all 0.2s ease-in-out;
+  transition-property: font-size;
+  transition-duration: 0.1;
+  transition-delay: 0.1;
+color: #000000;
+}
+
+
+figure.snip1197 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  ;
+ 
+}
+figure.snip1197 img {
+  float: right;
+  max-width: 50%;
+  vertical-align: middle;
+  border-radius: 0 8px 8px 0;
+}
+
+figure.snip1197 figcaption {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 70%;
+  position: absolute;
+transition: all 0.5s ease-in-out;
+  background-color: #141414;
+  border-radius: 8px 0 0 8px;}
+
+figure.snip1197 figcaption:hover
+{ transition: all 0.5s ease-in-out;
+  transition-duration: 0.8s;
+  width: 70%;
+  color: #000000;
+  background-color: #ffffff;}
+
+
+figure.snip1197 blockquote {
+  position: relative;
+  padding: 25px 50px 25px 50px;
+  font-size: 0.8em;
+  font-weight: 500;
+  text-align: left;
+  margin: 0;
+  line-height: 1.6em;
+  font-style: italic;
+}
+
+
+/* ................................................Product Page............................................... */
+
+/* ............................Container for the car products...................................... */
+
+.hero {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  width: 40%;
+  background-color: #141414;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;}
+
+
+.hero h1 {
+font-size: xx-large;
+flex-direction: row;
+justify-content: center; }
+
+.cars
+{display: flex;
+background-color: rgba(0, 0, 0, 0.669);
+border-radius: 15px;
+max-width: 950px;
+flex-direction: column;
+margin-bottom: 50px;
+transition: all 2s ease-in-out;
+
+}
+
+.cars:hover
+{box-shadow: 1px 3px 5px 5px rgb(177, 177, 177);
+background-color: black;
+max-width: 1100px;
+opacity: 1;
+transition-property: font-size;
+transition-duration: 1s;
+transition-delay: 1s;
+transition: all 0.5s ease-in-out;}
+
+
+    /* <<<<<<<<<<<<<<Red Product>>>>>>>>>>>>>>>> */
+
+/* Product photo for Red Bugatti */
+.carpic2 {
+  display: flex;
+  opacity: 0.4;
+  transition: all 1s ease-in-out;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 0px;}
+
+  .carpic2:hover
+  {opacity: 1;
+    transition: all 1s ease-in-out;
+  }
+  
+  
+/* Red Bugatti product title */
+  #RedBug {
+    color: #e10a0a;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 30px;
+    transition: all 0.2s ease-in-out
+  }
+
+  #RedBug:hover
+{background-color:#770101;
+color: #ffffff;
+border-radius: 10px;
+transition: all 0.2s ease-in-out}
+
+  /* <<<<<<<<<<<<<<Blue Product>>>>>>>>>>>>>>>> */
+
+/* Product photo for Blue Bugatti */
+.carpic1 {
+  opacity: 0.4;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 0px;
+  transition: all 1s ease-in-out;
+}
+
+.carpic1:hover
+{opacity: 1;
+  transition: all 0.3s ease-in-out;
+
+
+}
+
+/* Blue product title for Blue Bugatti */
+
+.BlueBug {
+  color: #0d97ec;
+  font-size: large;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 30px;
+  transition: all 0.2s ease-in-out;
+}
+
+.BlueBug:hover
+{background-color:#005c95;
+color: #ffffff;
+text-decoration: none;
+border-radius: 10px;
+transition: all 0.2s ease-in-out;
+
+}
+
+
+/* <<<<<<<<<<<<<<Green Product>>>>>>>>>>>>>>>> */
+
+/* Picture of a Green Bugatti */
+
+.carpic3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 0px;
+  opacity: 0.4;
+  transition: all 1s ease-in-out;}
+
+
+  .carpic3:hover
+{opacity: 1;
+   transition: all 0.2s ease-in-out}
+
+
+
+  /* Green product title for green Bugatti */
+
+.GreenBug {
+  color: #0dec1c;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 130px;
+  padding: 10px;
+  transition: all 0.2s ease-in-out;}
+
+  .GreenBug:hover
+  {background-color:#007009;
+    color: #ffffff;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+    
+    }
+/*................................................Location page............................................ */
+
+/* Creating a container*/
+.container {
+  max-width: 1000px;
+  margin-bottom: 50px;
+  padding: 40px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: #232323;
+  border-radius: 15px;
+
+  transition: all 0.5s ease-in-out;
+}
+
+.container:hover
+{max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  transition: all 0.5s ease-in-out
+
+}
+
+
+.container h1 {
+  text-align: center;
+  color: #ffffff;
+  border-radius: 10px;
+
+}
+
+.location {
+  margin-top: 40px;
+  text-align: center;
+  padding: 6px;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 20px;
+
+
+}
+
+.address {
+  margin-top: 5px;
+  font-size: 20px;
+  color: white;
+  padding: 2px;
+  background-color: #757575;
+  border-radius: 10px;
+}
+
+.map {
+  margin-top: 10px;
+  text-align: center;}
+
+.container:hover{
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.9);
+  transition-property: colour;
+  transition-duration: 1s;
+  transition-delay: 0.5s;
+  transition: all 0.5s ease-in-out;}
+/* ..............................................Footer..................................................... */
+footer {
+  background-color: #141414;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* ............ */
+
