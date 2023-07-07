@@ -147,6 +147,7 @@ padding: 5px;}
 
 figure.snip1197 {
   position: relative;
+  display: flex;
   margin: 10px;
   margin-bottom: 50px;
   min-width: 300px;
@@ -164,11 +165,13 @@ figure.snip1197 {
 
 figure.snip1197 * {
   -webkit-box-sizing: border-box;
+  display: flex;
   box-sizing: border-box;
   ;
  
 }
 figure.snip1197 img {
+  display: flex;
   float: right;
   max-width: 50%;
   vertical-align: middle;
@@ -176,6 +179,7 @@ figure.snip1197 img {
 }
 
 figure.snip1197 figcaption {
+  display: flex;
   top: 0;
   bottom: 0;
   left: 0;
@@ -194,6 +198,7 @@ figure.snip1197 figcaption:hover
 
 
 figure.snip1197 blockquote {
+  display: flex;
   position: relative;
   padding: 25px 50px 25px 50px;
   font-size: 0.8em;
