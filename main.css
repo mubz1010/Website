@@ -212,7 +212,6 @@ figure.snip1197 blockquote {
 
 .hero {
   color: #fff;
-  display: flex;
   text-align: center;
   padding: 10px;
   width: 40%;
@@ -228,7 +227,7 @@ flex-direction: row;
 justify-content: center; }
 
 .cars
-{display: flex;
+{
 background-color: rgba(0, 0, 0, 0.669);
 border-radius: 15px;
 max-width: 950px;
@@ -269,7 +268,6 @@ transition: all 1s ease-in-out;}
 /* Red Bugatti product title */
   #RedBug {
     color: #e10a0a;
-    display: flex;
     font-size: large;
     text-align: center;
     margin-bottom: 10px;
@@ -289,8 +287,7 @@ transition: all 0.2s ease-in-out}
 /* Product photo for Blue Bugatti */
 .carpic1 {
   opacity: 0.4;
-  
-  display: flex;
+
   flex-direction: column;
   align-items: center;
   padding: 20px;
@@ -308,7 +305,6 @@ transition: all 0.2s ease-in-out}
 /* Blue product title for Blue Bugatti */
 
 .BlueBug {
-  display: flex;
   color: #0d97ec;
   font-size: large;
   text-align: center;
@@ -353,7 +349,6 @@ transition: all 0.2s ease-in-out;
 
 .GreenBug {
   color: #0dec1c;
-  display: flex;
   font-size: 30px;
   text-align: center;
   margin-bottom: 130px;
@@ -371,7 +366,6 @@ transition: all 0.2s ease-in-out;
 
 /* Creating a container*/
 .container {
-  display: flex;
   max-width: 1000px;
   margin-bottom: 50px;
   padding: 40px;
